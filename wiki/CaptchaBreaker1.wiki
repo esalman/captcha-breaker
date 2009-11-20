@@ -23,3 +23,10 @@ This Captcha Breaker is a single function. All you need is to pass the URL of th
    ?>
 
 }}}
+
+= What you need =
+
+In order to get the script running you need all files and folders that you can find <a href="http://code.google.com/p/captcha-breaker/source/browse/#svn/trunk/Captcha%20Breaker%201">here</a>. Even if they are empty.
+
+The folders unkown and tmp need to be writeable
+The folder letters needs to be writeable
