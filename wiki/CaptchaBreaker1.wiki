@@ -2,12 +2,24 @@
 
 = Introduction =
 
-Add your content here.
+This Script breaks this Captcha <img src="http://captcha-breaker.googlecode.com/files/captcha1.png" />
 
 
-= Details =
+= Usage =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+This Captcha Breaker is a single function. All you need is to pass the URL of the image (without the http://) and it will return the code.
+
+= Example =
+
+{{{
+   <?php
+
+      include_once('captchabreaker1.php');
+      
+      $code = breakcaptcha('captcha-breaker.googlecode.com/files/captcha1.png');    
+
+      echo $code;
+
+   ?>
+
+}}}
