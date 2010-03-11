@@ -1,0 +1,15 @@
+#summary Why some captchas are so easy to break
+
+
+= Details =
+
+Here are some of the reasons why some captchas are really really easy to break.
+
+1. Background is the same color. No gradient or patterns.
+2. Font is not distorted.
+3. Letters are all nicely next to each other and always at the same place.
+
+So if you want to make it harder then.
+
+1. Have a changing background. Add gradients, patterns etc and make sure the background is different every single time.
+2. Distort the font or at least write the letters randomly across the image without a specific pattern.
